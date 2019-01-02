@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
-import SearchBar from './components/searchBar';
+import SearchBar from './components/SearchBar';
+import ResultIndex from './components/ResultIndex';
 
 class App extends React.Component {
   constructor(props) {
@@ -12,6 +13,7 @@ class App extends React.Component {
     return (
       <div>
         <SearchBar />
+        <ResultIndex />
       </div>
     )
   }
